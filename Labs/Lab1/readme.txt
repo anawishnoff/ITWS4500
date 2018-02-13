@@ -1,3 +1,5 @@
+The assignment for this lab was to create a simple Twitter ticker, given a JSON file with 100 tweets.
+
 For this lab, I decided to include the username, user’s photo, tweet text, an d the date/time of each tweet. The username and user photo will give good context to the user regarding the tweet; the tweet text is the whole point of the ticker; and the date/time might also give a little more context if maybe the tweets were pulled from a different time or topic in which they were more spread out. 
 
 I faced quite a few issues with the dataset of tweets. The first one was getting a user’s picture. To access a user’s picture, I found a good workaround where instead of using the provided picture link from the API data, you can access their picture by going to https://twitter.com/username/profile_image?size=mini. I customized this for every incoming tweet and was able to retrieve and display many of the pictures. If the user did not have a picture, or I was not able to access it from their profile, I used the CSS img:before selector to put a default image. 

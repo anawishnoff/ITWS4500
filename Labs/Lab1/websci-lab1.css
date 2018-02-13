@@ -1,0 +1,77 @@
+#username, #tweet, #date {
+	border: 2px solid white;
+	color: white;
+	padding: 8px;
+}
+#username{
+	background-color: #88a7d8;
+}
+#tweet {
+	background-color: #5371a0;
+}
+#date {
+	background-color: #3a67af;
+}
+ul{
+	list-style-type: none;
+	text-decoration: none;
+}
+#header{
+	text-align: center;
+}
+
+.head {
+	font-weight: bold;
+}
+
+.tweets{
+	padding: 0;
+	padding-top: 5px;
+}
+#top, #last, #li1 {
+	margin: 0;
+	text-align: center;
+}
+
+.container {
+	margin-top: 20px;
+}
+
+#title{
+	border-bottom: solid;
+	border-color: #83a9ea;
+	border-width: 8px;
+	text-align: center;
+	padding-bottom: 5px;
+	color: #5678af;
+
+}
+
+#border {
+	height: 10px;
+	border-bottom: solid;
+	border-color: #173f82;
+	border-width: 8px;
+}
+#author {
+	font-size: 1em;
+	text-align: center;
+	padding-top: 5px;
+}
+
+#pro-pic{
+	margin-right: 15px;
+	height: 40px;
+	width: 40px;
+  	overflow: hidden;
+  	border-radius: 15px;
+}
+img:before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    background-image: url(photo.png);
+    border-radius: 15px;
+}

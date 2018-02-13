@@ -1,0 +1,87 @@
+#data {
+	margin-top: 10px;
+	border: 2px solid black;
+	padding: 10px;
+	margin-left: 0px;
+	width: 40%;
+}
+
+#title, #author {
+	margin: 10px;
+}
+
+
+#location {
+	margin-left: 15px;
+}
+#city {
+	color: blue;
+	font-size: 1.5em;
+}
+
+#curr_temp{
+	font-size: 2em;
+	font-weight: bold;
+}
+.head{
+	text-align: center;
+}
+
+.update{
+	margin-top: 10px;
+	text-align: center;
+}
+#forecast-list{
+	margin-top: 10px;
+	text-align: center;
+	width: 60%;
+	
+}
+#day{
+	padding: 10px;
+	border: 2px solid black;
+}
+
+#date{
+	font-size: 1.5em;
+	font-weight: bold;
+	padding: 5px;
+	color: green;
+}
+
+#lower-icon{
+	width: 100px;
+	height: auto;
+}
+
+.col-sm-3{
+	text-align: left;
+}
+
+#sunset-font{
+	color: #374d8e;
+	font-weight: bold;
+}
+
+#sunrise-font{
+	color: #f7c562;
+	font-weight: bold;
+}
+
+#unit1, #unit2{
+	color: blue;
+	cursor: pointer;
+}
+#unit1:hover, #unit2:hover{
+	color: black;
+}
+
+#units{
+	margin-top:10px;
+	margin-bottom: 5px;
+}
+
+#instructions{
+	background-color: #d1d3d6;
+	padding: 15px;
+}
